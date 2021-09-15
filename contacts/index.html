@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		  <meta charset="UTF-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		  <title>Document</title>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		  <link rel="stylesheet" href="assets/css/style.css">
+		  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet">
+		  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+		</head>
+		<body>
+			<div class="header">
+
+				<div class="logo">
+		      <img src="assets/img/logo/logo-black.svg" alt="" class="img-res">
+		    </div>
+
+				<ul class="menu">
+		      <li><a href="../index.html">Home</a></li>
+		      <li><a href="../index.html">About me</a></li>
+		      <li><a href="../index.html">How can I help you</a></li>
+					<li><a href="../portfolio/index.html">Portfolio</a></li>
+					<li><a href="../index.html">Contacts</a></li>
+		      <li class="mt-2"><a href="">Have a project for me?</a></li>
+		      <li><a href="index.html" class="button">Let's talk</a></li>
+		    </ul>
+		    <div class="hamburger">
+		        <span class="span"></span><span class="span"></span><span class="span"></span><span class="span"></span>
+		    </div>
+			</div>
+
+			<div class="contacts">
+			    <div class="contacts__title mt-2 reveal">
+			      <h3 class="big-text tw">LET'S TALK</h3>
+			    </div>
+			    <div class="contacts__text reveal mt-1">
+
+			      <h4 class="normal-text">Vuoi scoprire come puoi migliorare la tua presenza online?</h4>
+			      <p class="">Per me è importantissimo comprendere al meglio quali siano le <b>aspettative</b>,
+							<b>gli obiettivi</b> e le <b>esigenze</b>. La parte iniziale di una collaborazione pone le basi proprio nell’ascolto.
+							Conoscere la situazione di partenza mi consentirà di proporti delle <b>soluzioni personalizzate</b>
+							adatte ed efficaci alle tue esigenze.</p>
+
+			      <h4 class="normal-text mt-1">Ti piacerebbe rinnovare il sito web rendendolo mobile-friendly?</h4>
+			      <p class="">Sempre più persone utilizzano il proprio smartphone per visitare le pagine web,<br>
+						bisogna essere pronti e fare in modo che gli utenti riescano a navigare in modo fluido e agevole<br>
+					anche da un dispositivo con uno schermo dalle dimensioni ridotte.</p>
+
+			    </div>
+			 </div>
+
+				<h1 class="form__title reveal">Inserisci i tuoi dati</h1>
+				<div class="form reveal">
+
+							<form name="formmail" method="post" action="https://formspree.io/francesco.immacolato@gmail.com">
+									<input type="hidden" name="_subject" value="Messaggio dal sito" />
+								  <input type="hidden" name="_next" value="http://www.miosito.com/pagina-successo.html" />
+
+								  <label for="nome">Nome e Cognome</label>
+								  <input type="text" id="nome" name="nome" placeholder="Inserisci Nome e Cognome">
+
+								  <label for="email">Email</label>
+								  <input type="text" id="email" name="email" placeholder="Indirizzo di posta elettronica">
+
+								  <label for="tel">Telefono</label>
+								  <input type="text" id="tel" name="tel" placeholder="Numero di telefono">
+
+								  <label for="msg">Messaggio</label>
+								  <textarea id="msg" name="msg" placeholder="Scrivi il tuo messaggio"></textarea>
+
+								  <input type="submit" value="Invia Richiesta">
+							</form>
+					</div>
+
+
+
+<footer class="footer">
+	<a name="Contacts" href=""></a>
+	<div class="footer__grid">
+		<div class="col mt-1 reveal">
+			<h4 class="normal-text tw">Contacts</h4>
+			<p>Mail: francesco.immacolato@gmail.com</p>
+			<p>Phone: 333 3333333</p>
+			<p>Turin, Italy</p>
+			<a href="https://wa.me/3212345678/?text=" class="wa-link-desk">
+				<img src="../assets/img/whatsapp.png" alt="" class="img-res zoom">
+			</a>
+		</div>
+		<div class="col mt-1 reveal">
+			<h4 class="normal-text tw">Follow me</h4>
+				<img src="../assets/img/png/me.png" alt="" class="photo-profile">
+			<div class="social-bar">
+				<a href="" class="social-icon">
+					<img src="../assets/img/icon/linkedin.png" alt="" class="img-res">
+				</a>
+				<a href="" class="social-icon">
+					<img src="../assets/img/icon/instagram.png" alt="" class="img-res">
+				</a>
+				<a href="" class="social-icon">
+					<img src="../assets/img/icon/facebook.png" alt="" class="img-res">
+				</a>
+			</div>
+		</div>
+	 </div>
+</footer>
+
+<a href="https://wa.me/3212345678/?text=" class="wa-link">
+	<img src="assets/img/whatsapp.png" alt="" class="img-res">
+</a>
+
+
+
+
+
+
+		  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script type="text/javascript">
+
+			<!-- Hamburger menu -->
+			    $( document ).ready(function() {
+
+			      $( ".hamburger" ).on('click', function() {
+			        $(".menu").toggleClass("menu--open");
+			      });
+
+			      $( ".hamburger" ).on('click', function() {
+			        $(".span").toggleClass("span--white");
+			      });
+
+
+			      $( "li" ).on('click', function() {
+			        $(".menu").toggleClass("menu--open");
+			        $(".span").toggleClass("span--white");
+			      });
+
+			    });
+
+
+					<!-- Scroll -->
+					    ScrollReveal().reveal(".reveal", {distance: "50px", duration: 800, easing: "cubic-bezier(.215, .61, .355, 1)", interval: 500});
+					    ScrollReveal().reveal(".zoom", {duration: 1500, easing: "cubic-bezier(.215, .61, .355, 1)", interval: 200, scale: 0.65});
+
+					<!-- Disappear logo -->
+					    $(document).ready(function () {
+					      $(window).scroll(function () {
+					        if ($(this).scrollTop() > 50) {
+					          $('.logo').fadeOut(300);
+					        } else {
+					          $('.logo').fadeIn(400);
+					        }
+					      });
+					    });
+
+
+</script>
+
+<script type="text/javascript">
+function verificaEmail(email) {
+var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+return re.test(email);
+}
+
+function controlloForm() {
+var nome = document.forms["formmail"]["nome"].value;
+var email = document.forms["formmail"]["email"].value;
+var tel = document.forms["formmail"]["tel"].value;
+var msg = document.forms["formmail"]["msg"].value;
+
+if (nome == "" || email == "" || msg == "") {
+	alert("I campi Nome, Email e Messaggio sono obbligatori!");
+	return false;
+}
+else if (verificaEmail(email) !== true) {
+	alert("L'indirizzo email non sembra corretto!");
+	return false;
+}else{
+	return true;
+}
+}
+</script>
+		</body>
+
+
+		</html>
