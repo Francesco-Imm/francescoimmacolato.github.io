@@ -273,35 +273,6 @@ p {
 }
 
 
-/* ! Ask */
-.ask{
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
-  text-align: center;
-  margin-top: 250px;
-}
-
-.ask__title{
-  justify-content: center;
-  width: 100%;
-}
-
-.ask__text{
-  width: 100%;
-  padding: 0 100px;
-  justify-content: center;
-}
-
-.ask .button{
-  width: 150px;
-  height: 60px;
-  text-decoration: none;
-  color: #fff;
-  background: #000;
-  justify-content: center;
-}
-
 /* Footer */
 
 .footer{
