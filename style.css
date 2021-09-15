@@ -37,7 +37,7 @@ p {
 }
 
 .button {
-  padding: 18px 28px;
+  padding: 20px 30px;
   background: #f8c000;
   color: #000;
   display: inline-block;
@@ -379,6 +379,7 @@ p {
 .footer__grid .col {
   text-align: center;
 }
+
 
 .social-bar {
   display: flex;
