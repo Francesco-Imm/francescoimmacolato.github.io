@@ -45,18 +45,14 @@ p {
 }
 
 
-/* iPad Pro */
+/* iPad - Desktop */
 @media (min-width: 1025px) {
-
   .big-text {font-size: 70px; font-weight: 900;}
   .med-text {font-size: 40px;}
   .small-text {font-size: 16px;}
 }
 
-
-
 /* Header */
-
 .header {
   display: flex;
   height: 200px;
@@ -128,21 +124,16 @@ p {
 
 /* iPhone/Smartphone landscape */
 @media (min-width: 500px) and (max-width: 740px) {
-
   .logo {
     width: 100px;
     margin-right: 80%;
   }
-
   .menu {
     width: 35%;
     padding-top: 50px;
   }
-
   .menu li a {font-size: 14px;}
   .menu .mt-2 {margin-top: 20px;}
-
-
 }
 
 /* iPad/Tablet */
@@ -154,10 +145,9 @@ p {
     height: 35px;
     right: 20px;
   }
-
 }
 
-/* iPad Pro */
+/* iPad -Desktop */
 @media (min-width: 1025px) {
   .logo {width: 300px; margin-right: 70%;}
   .menu {width: 35%; padding-top: 150px;}
@@ -166,21 +156,16 @@ p {
     height: 35px;
     right: 20px;
   }
-
 }
 
-
 /* Contacts */
-
 .contacts {
   text-align: center;
   padding: 50px 50px;
   background: url('../img/bg-cover/bg-landing.mp4') no-repeat center center;
   background-size: cover;
   width: 100%;
-
 }
-
 
 /* Form */
 .form {
@@ -201,6 +186,7 @@ label, input[type=text], textarea {
   box-sizing: border-box;
   width: 300px;
 }
+
 input[type=text], textarea {
   padding: 10px;
   border: 1px solid #CCC;
@@ -225,9 +211,7 @@ input[type=submit]:hover {
   color: #000
 }
 
-
 /* Footer */
-
 .footer{
   background: #000;
 }
@@ -261,7 +245,7 @@ input[type=submit]:hover {
   margin: 10px;
 }
 
-/* iPad Pro */
+/* iPad -Desktop */
 @media (min-width: 1025px) {
   .footer {
     padding: 50px 0;
@@ -270,7 +254,6 @@ input[type=submit]:hover {
     flex-wrap: nowrap;
   }
 }
-
 
 /* Whatsapp Icon */
 .wa-link {
@@ -286,7 +269,7 @@ input[type=submit]:hover {
   display: none;
 }
 
-/* iPad Pro */
+/* iPad -Desktop */
 @media (min-width: 1025px) {
   .wa-link {display: none;}
   .wa-link-desk {
@@ -297,13 +280,10 @@ input[type=submit]:hover {
 }
 
 /* Helpers */
-
 .mt-1 {margin-top: 50px;}
 .mt-2 {margin-top: 100px;}
 .mt-3 {margin-top: 150px;}
 .tw {color: #fff;}
-
-
 
 
 *,

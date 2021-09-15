@@ -44,19 +44,13 @@ p {
   border-radius: 4px;
 }
 
-
-/* iPad Pro */
 @media (min-width: 1025px) {
-
   .big-text {font-size: 70px; font-weight: 900;}
   .med-text {font-size: 40px;}
   .small-text {font-size: 16px;}
 }
 
-
-
 /* Header */
-
 .header {
   display: flex;
   height: 200px;
@@ -128,7 +122,6 @@ p {
 
 /* iPhone/Smartphone landscape */
 @media (min-width: 500px) and (max-width: 740px) {
-
   .logo {
     width: 100px;
     margin-right: 80%;
@@ -140,9 +133,8 @@ p {
   }
 
   .menu li a {font-size: 14px;}
+
   .menu .mt-2 {margin-top: 20px;}
-
-
 }
 
 /* iPad/Tablet */
@@ -157,7 +149,7 @@ p {
 
 }
 
-/* iPad Pro */
+/* iPad landscape - Desktop */
 @media (min-width: 1025px) {
   .logo {width: 300px; margin-right: 70%;}
   .menu {width: 35%; padding-top: 150px;}
@@ -171,7 +163,6 @@ p {
 
 
 /* Hero */
-
 .hero {
   height: 100vh;
   width: 100%;
@@ -202,20 +193,17 @@ p {
 @media (orientation: landscape) {
   .hero__content {margin-left: 120px; margin-top: 0;}
   .hero__content h1 {padding-bottom: 0;}
-
 }
 
+/* tablets */
 @media (min-width: 741px) and (max-width: 1024px) {
   .hero__content {margin-top: 100px;}
   .hero__content h1 {padding-bottom: 0;}
-
-
 }
 
+/* Desktop */
 @media (min-width: 1025px) {
   .hero__content {margin-top: 200px;}
-
-
 }
 
 /* Arrow */
@@ -227,7 +215,6 @@ p {
 }
 
 /* Panel */
-
 .panel {
   background: #f8c000;
 }
@@ -279,18 +266,13 @@ p {
   text-align: center;
 }
 
-
 /* iPad/Tablet */
 @media (min-width: 741px) and (max-width: 1024px) {
-
   .grid {padding: 0 30px;}
-
-
 }
 
-/* iPad Pro */
+/* iPad - desktop */
 @media (min-width: 1025px) {
-
   .panel {padding: 100px 30px;}
   .grid {
     flex-wrap: nowrap;
@@ -315,13 +297,9 @@ p {
   .col__title, .col__content {
     padding: 20px;
   }
-
-
 }
 
-
 /* Cover */
-
 .bg-cover{
   display: flex;
   flex-wrap: wrap;
@@ -344,7 +322,7 @@ p {
   justify-content: center;
 }
 
-/* iPad Pro */
+/* iPad - Desktop */
 @media (min-width: 1025px) {
   .bg-cover {
     flex-wrap: nowrap;
@@ -356,13 +334,9 @@ p {
   .bg-cover__title {
     width: 50%;
   }
-
 }
 
-
-
 /* Footer */
-
 .footer{
   background: #000;
 }
@@ -380,11 +354,11 @@ p {
   text-align: center;
 }
 
-
 .social-bar {
   display: flex;
   justify-content: center;
 }
+
 .social-icon {
   width: 40px;
   height: 40px;
@@ -397,7 +371,7 @@ p {
   margin: 10px;
 }
 
-/* iPad Pro */
+/* iPad -Desktop */
 @media (min-width: 1025px) {
   .footer {
     padding: 50px 0;
@@ -406,7 +380,6 @@ p {
     flex-wrap: nowrap;
   }
 }
-
 
 /* Whatsapp Icon */
 .wa-link {
@@ -422,7 +395,7 @@ p {
   display: none;
 }
 
-/* iPad Pro */
+/* iPad - Desktop */
 @media (min-width: 1025px) {
   .wa-link {display: none;}
   .wa-link-desk {
@@ -434,17 +407,11 @@ p {
 
 
 
-
-
-
 /* Helpers */
-
 .mt-1 {margin-top: 50px;}
 .mt-2 {margin-top: 100px;}
 .mt-3 {margin-top: 150px;}
 .tw {color: #fff;}
-
-
 
 
 *,
